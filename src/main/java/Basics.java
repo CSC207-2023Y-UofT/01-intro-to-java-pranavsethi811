@@ -148,11 +148,12 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        String[] words = to_split.split(" ",7);
         
-        for(int i = 0; i<7; i++){
-            char result = words[0].charAt(0);
-            ret.append(result);
+        String[] split = to_split.split(" ");
+        
+            for (int i = 0; i < split.length; i++){
+            ret.append(split[i].charAt(0));
+        }
         }
           
 
