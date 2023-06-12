@@ -154,7 +154,6 @@ public class Basics {
             for (int i = 0; i < split.length; i++){
             ret.append(split[i].charAt(0));
         }
-        }
           
 
         return ret.toString();
